@@ -1,0 +1,42 @@
+@import _mixins
+body
+    +body()
+a
+    +all-links()
+button
+    +all-buttons()
+header
+    +flex-column-align-items-center-justify-content-space-evenly(100%,403px,black)
+.header__navigation
+    +flex-justify-content-space-between(76.51041666666667%,29px,none)
+    align-items: center
+.header__navigation-left
+    +flex-justify-content-space-between(12.66167460857726%,29px,none)
+    align-items: center
+.header__navigation-left-logo
+    +links(24px,SF UI Display,white,29px)
+    display: flex
+    align-items: center
+.header-navigation-left-logo-img
+    margin-right: 24px
+.header__navigation-right
+    +flex-justify-content-space-between(25%,26px,none)
+    align-items: center
+.navigation__link
+    +links(18px,SF UI Display,white,21px)
+    display: flex
+    align-items: center
+.header__navigation-right-widget-img
+    margin-right: 10px
+.header__search-border
+    +block(73%,100px)
+    border-bottom: 0.5px solid white
+.header__search-border-search-input
+    +input(100%,86px,72px,SF UI Display,86px,white)
+.header__search-border-search-input::placeholder
+    +input(100%,86px,72px,SF UI Display,86px,white)
+.header__categories
+    +flex-justify-content-space-between(73%,21px,none,)
+.header__categories-button
+    +buttons(18px,white,SF UI Display,transparent,auto,auto)
+    line-height: 21px
