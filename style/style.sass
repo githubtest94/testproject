@@ -11,7 +11,7 @@ header
     +flex-justify-content-space-between(76.51041666666667%,29px,none)
     align-items: center
 .header__navigation-left
-    +flex-justify-content-space-between(12.66167460857726%,29px,none)
+    +flex-justify-content-space-between(186px,29px,none)
     align-items: center
 .header__navigation-left-logo
     +links(24px,SF UI Display,white,29px)
@@ -20,7 +20,7 @@ header
 .header-navigation-left-logo-img
     margin-right: 24px
 .header__navigation-right
-    +flex-justify-content-space-between(25%,26px,none)
+    +flex-justify-content-space-between(300px,26px,none)
     align-items: center
 .navigation__link
     +links(18px,SF UI Display,white,21px)
@@ -36,20 +36,24 @@ header
 .header__search-border-search-input::placeholder
     +input(100%,86px,72px,SF UI Display,86px,white)
 .header__categories
-    +flex-justify-content-space-between(73%,21px,none,)
+    +flex-justify-content-space-between(1200px,21px,none,)
 .header__categories-button
     +buttons(18px,white,SF UI Display,transparent,auto,auto)
     line-height: 21px
 .gallery
     +flex-column-align-items-center-justify-content-space-evenly(100%,3567px,none)
 .gallery__photoes-container
-    +flex-justify-content-space-between(95%,3318px,none)
+    +flex-justify-content-space-between(1482px,3318px,none)
 .gallery__photoes-container-column
     +flex-column-align-items-center-justify-content-space-evenly(32%,100%,none)
     justify-content: space-between
 .gallery__photoes-container-column-item
     +size(476px,auto)
     border-radius: 8px
+    transition: 500ms
+.gallery__photoes-container-column-item:hover
+    background: rgba(40, 36, 22, 0.5)
+    filter: blur(20px)
 .gallery__photoes-container-column-item img
     border-radius: 8px
 .gallery__switch-buttons
