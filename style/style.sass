@@ -48,8 +48,7 @@ header
     +flex-column-align-items-center-justify-content-space-evenly(32%,100%,none)
     justify-content: space-between
 .gallery__photoes-container-column-item
-    width: 476px
-    height: auto
+    +size(476px,auto)
     border-radius: 8px
 .gallery__photoes-container-column-item img
     border-radius: 8px
@@ -58,8 +57,7 @@ header
 .gallery__switch-buttons-btn
     +flex-column-align-items-center-justify-content-space-evenly(23px,100%,none)
 .gallery__switch-buttons-btn-item
-    width: 100%
-    height: 10px
+    +size(100%,10px)
     background: #BDBDBD
     transition: 500ms
 .gallery__switch-buttons-btn:hover .gallery__switch-buttons-btn-item
@@ -67,7 +65,6 @@ header
 .gallery__switch-buttons-btn-row
     +flex-justify-content-space-between(100%,10px,none)
 .gallery__switch-buttons-btn-row-item
-    width: 10px
-    height: 100%
+    +size(10px,100%)
     background: black
     transition: 500ms
