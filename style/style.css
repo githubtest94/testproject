@@ -120,7 +120,9 @@ header {
   justify-content: space-between;
   width: 1200px;
   height: 21px;
-  background: none;
+  background: linear-gradient(to right, white 50%, black 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header__categories-button {
@@ -131,6 +133,7 @@ header {
   width: auto;
   height: auto;
   line-height: 21px;
+  cursor: pointer;
 }
 
 .gallery {

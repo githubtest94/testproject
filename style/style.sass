@@ -38,10 +38,13 @@ header
     +size(1200px,1px)
     background: linear-gradient(to right,black 0%,white 50%,black 100%)
 .header__categories
-    +flex-justify-content-space-between(1200px,21px,none,)
+    +flex-justify-content-space-between(1200px,21px,linear-gradient(to right,white 50%,black 100%))
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
 .header__categories-button
     +buttons(18px,white,SF UI Display,transparent,auto,auto)
     line-height: 21px
+    cursor: pointer
 .gallery
     +flex-column-align-items-center-justify-content-space-evenly(100%,3567px,none)
 .gallery__photoes-container
