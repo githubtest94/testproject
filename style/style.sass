@@ -30,11 +30,13 @@ header
     margin-right: 10px
 .header__search-border
     +block(73%,100px)
-    border-bottom: 0.5px solid white
 .header__search-border-search-input
     +input(100%,86px,72px,SF UI Display,86px,white)
 .header__search-border-search-input::placeholder
     +input(100%,86px,72px,SF UI Display,86px,white)
+.header__search-border-bottom-line
+    +size(1200px,1px)
+    background: linear-gradient(to right,black 0%,white 50%,black 100%)
 .header__categories
     +flex-justify-content-space-between(1200px,21px,none,)
 .header__categories-button
