@@ -255,7 +255,7 @@
 }
 @media screen and (max-width: 345px) {
   .header__categories-button {
-    font-size: 16px;
+    font-size: 13px;
     color: white;
     font-family: SF UI Display;
     background: transparent;
