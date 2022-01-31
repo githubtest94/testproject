@@ -1,0 +1,91 @@
+@import _mixins
+@media screen and (max-width: 1470px)
+    .header__categories
+        +size(85vw,21px)
+    .header__categories-button
+        +buttons(16px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 1260px)
+    .header__categories-button
+        +buttons(14px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 1045px)
+    .header__categories
+        +size(100vw,21px)
+    .header__categories-button
+        +buttons(12px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 830px)
+    .header__categories-button
+        +buttons(10px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 670px)
+    .header__navigation-left-logo
+        +links(18px,SF UI Display,white,29px)
+        +size(130px,29px)
+    .header__navigation-right
+        +size(250px,26px)
+    .navigation__link
+        +links(13px,SF UI Display,white,29px)
+@media screen and (max-width: 650px)
+    .header__categories-button
+        +buttons(8px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 550px)
+    .header__categories-button
+        +buttons(6px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 545px)
+    .header__navigation-left-logo
+        +links(13px,SF UI Display,white,29px)
+        +size(100px,29px)
+    .header__navigation-right
+        +size(220px,26px)
+    .navigation__link
+        +links(10px,SF UI Display,white,29px)
+@media screen and (max-width: 470px)
+    .header__navigation-left-logo
+        +links(10px,SF UI Display,white,29px)
+        +size(80px,29px)
+    .header__navigation-right
+        +size(200px,26px)
+    .navigation__link
+        +links(8px,SF UI Display,white,29px)
+@media screen and (max-width: 445px)
+    .header__categories-button
+        +buttons(5px,white,SF UI Display,transparent,auto,auto)
+@media screen and (max-width: 426px)
+    header
+        +size(100%,240px)
+    .header__search-border-search-input
+        +input(100%,43px,36px,SF UI Display,43px,white)
+    .header__search-border-search-input::placeholder
+        +input(100%,43px,36px,SF UI Display,43px,white)
+    .header__search-border
+        +block(62.500vw,58px)
+    .header__navigation-left-logo
+        +size(29px,29px)
+    .header__navigation-right
+        +size(75.81px,29px)
+    .navigation__link-turn-off
+        display: none
+    .header__navigation-left-logo-turn-off
+        display: none
+    .header__categories
+        +size(89.067vw,21px)
+    .header__categories-button
+        +buttons(18px,white,SF UI Display,transparent,auto,auto)
+    .header__categories-button:nth-child(n+4)
+        display: none
+    .gallery__photoes-container-column:nth-child(n+2)
+        display: none
+    .gallery__photoes-container-column-item:nth-child(n+4)
+        display: none
+    .gallery__photoes-container-column-item-mobile
+        display: block
+    .gallery__photoes-container
+        justify-content: center
+        +size(85%,430vh)
+    .gallery__photoes-container-column
+        +size(100%,100%)
+    .gallery
+        +size(100%,500vh)
+    .gallery__upper-arrow
+        display: none
+@media screen and (max-width: 345px)
+    .header__categories-button
+        +buttons(16px,white,SF UI Display,transparent,auto,auto)
