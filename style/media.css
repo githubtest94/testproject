@@ -253,7 +253,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 365px) {
   .header__categories-button {
     font-size: 10px;
     color: white;
